@@ -1,0 +1,144 @@
+
+<!doctype html>
+<html ⚡>
+<head>
+  <meta charset="utf-8">
+  <title>J. Harsh Kumar</title>
+  <link rel="canonical" href="self.html" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+  <style amp-custom>
+    header{
+      display:flex;
+      box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+    }
+    .brand{
+      height:50px;
+      text-align:center;
+      line-height:50px;
+      font-size:25px;
+      flex-grow:1;
+    }
+    .menu-icon{
+      width:50px;
+      height:50px;
+      text-align:center;
+      line-height:50px;
+      cursor:pointer;
+    }
+    amp-sidebar{
+      padding:0;
+      margin:0px;
+    }
+    amp-sidebar .container{
+      background:white;
+      width:200px;
+      height:97vh;
+      padding-top:16px;
+    }
+    
+    ul{
+      margin:0px;
+    }
+    
+    amp-sidebar li{
+      list-style:none;
+      height:40px;
+    }
+    amp-sidebar  a{
+      text-decoration:none;
+      color:black;
+      font-size:20px;
+      letter-spacing:3px;
+      font-family:'Roboto',sans-serif;
+      line-height:40px;
+    }
+    
+    .card{
+      margin:8px;
+      padding:8px;
+      font-family:'Roboto',sans-serif;
+    }
+    
+    .card h2{
+      font-size: 20px;
+      font-weight:400;
+      border-bottom:2px solid yellow;
+      
+    }
+    .card h2:first-letter{
+      font-size:1.2em;
+    }
+    main ul{
+      padding:0;
+    }
+    main li{
+      margin-bottom:16px;
+      list-style:none;
+    }
+    .postitem{
+      letter-spacing:1px;
+    }
+    .postitem .date{
+      font-style:italic;
+      color:rgba(0,0,0,0.6);
+    }
+    .postitem a{
+      text-decoration:none;
+      color:black;
+    }
+    main{
+      max-width:500px;
+      display:flex;
+      flex-flow:column;
+      justify-content:center;
+      align-items:left;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      J. Harsh Kumar
+    </div>
+    <div class="menu-icon" role="button" on="tap:sidebar.toggle" tabindex="1">
+      ☰
+    </div>
+  </header>
+
+  <amp-sidebar id="sidebar" layout="nodisplay" side="right">
+    <div class="container">
+      <nav>
+        <ul>
+          <li class="listitem">
+            <a href="#">Home</a>
+          </li>
+          <li class="listitem">
+            <a href="/about.amp.html">About</a>
+          </li>
+          <li class="listitem">
+            <a href="/contact.amp.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </amp-sidebar>
+  
+  <main>
+    
+    <section class="card">
+      <h2>
+        Recent Topics
+      </h2>
+      <ul class="postslist">
+        <li>
+          <div class="postitem"><a href="/post/hellow-world.amp.html">Helllo world - <span class="date">22 June 2018</span></a></div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>
